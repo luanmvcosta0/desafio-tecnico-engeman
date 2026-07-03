@@ -4,10 +4,12 @@ Aplicação fullstack para **gestão e consulta de imóveis**, desenvolvida como
 
 O projeto está dividido em dois repositórios:
 
-| Repositório | Descrição | Stack principal |
-| --- | --- | --- |
-| 🔗 [**desafio-tecnico-engeman-be**](https://github.com/luanmvcosta0/desafio-tecnico-engeman-be) | API REST com autenticação JWT e controle de acesso por papéis | Java 21 · Spring Boot · PostgreSQL · Docker |
-| 🔗 [**desafio-tecnico-engeman-fe**](https://github.com/luanmvcosta0/desafio-tecnico-engeman-fe) | Interface web para cadastro e consulta de imóveis | React · TypeScript <!-- ajuste conforme o front: Vite, Tailwind, etc. --> |
+| Repositório                                                                                     | Descrição                                                     | Stack principal                                                           |
+| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| 🔗 [**desafio-tecnico-engeman-be**](https://github.com/luanmvcosta0/desafio-tecnico-engeman-be) | API REST com autenticação JWT e controle de acesso por papéis | Java 21 · Spring Boot · PostgreSQL · Docker                               |
+| 🔗 [**desafio-tecnico-engeman-fe**](https://github.com/luanmvcosta0/desafio-tecnico-engeman-fe) | Interface web para cadastro e consulta de imóveis             | React · TypeScript <!-- ajuste conforme o front: Vite, Tailwind, etc. --> |
+
+📄 **Documento oficial do desafio técnico:** [Desafio Técnico – Desenvolvedor Full-Stack (PDF)](./docs/desafio-tecnico-engeman.pdf)
 
 ---
 
@@ -51,6 +53,7 @@ API REST stateless com autenticação **JWT** e **RBAC** (controle de acesso por
 Interface web para consumo da API, com autenticação e telas de gestão de imóveis.
 
 <!-- TODO: ajuste esta seção com os destaques reais do seu front -->
+
 **Destaques:**
 
 - 🔑 Login e registro integrados à API (token JWT)
@@ -82,6 +85,7 @@ docker compose up --build
 ```
 
 <!-- TODO: ajuste porta e variáveis de ambiente do front, se houver (ex.: VITE_API_URL=http://localhost:8080) -->
+
 Aplicação disponível em `http://localhost:5173`.
 
 > 💡 O **primeiro usuário registrado** recebe automaticamente o papel `ADMIN`.
